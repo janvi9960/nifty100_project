@@ -1,0 +1,88 @@
+================================================================================
+FINANCIAL RATIO EDGE CASE LOG
+================================================================================
+
+ROE/ROCE engine values are compared with the source values provided in companies.xlsx.
+Because companies.xlsx contains one source value per company, the comparison is treated as a source cross-check rather than a historical year-by-year validation.
+
+[VERSION DIFFERENCE] ABB - Abbott India Ltd | ROCE | Engine=38.42% | Source=46.00% | Difference=7.58%
+[VERSION DIFFERENCE] ADANIENT - Adani Enterprises Ltd | ROE | Engine=8.53% | Source=13.64% | Difference=5.11%
+[FORMULA DISCREPANCY] ADANIGREEN - Adani Green Energy Ltd | ROCE | Engine=9.80% | Source=96.50% | Difference=86.70%
+[VERSION DIFFERENCE] ADANIPOWER - Adani Power Ltd | ROE | Engine=48.28% | Source=57.10% | Difference=8.82%
+[VERSION DIFFERENCE] ADANIPOWER - Adani Power Ltd | ROCE | Engine=23.44% | Source=32.20% | Difference=8.76%
+[VERSION DIFFERENCE] ASIANPAINT - Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROCE | Engine=35.77% | Source=41.75% | Difference=5.98%
+[VERSION DIFFERENCE] BAJAJ-AUTO - Bajaj Auto Ltd | ROCE | Engine=28.39% | Source=33.50% | Difference=5.11%
+[VERSION DIFFERENCE] BAJAJFINSV - Bajaj Finserv Ltd | ROE | Engine=25.85% | Source=11.72% | Difference=14.13%
+[VERSION DIFFERENCE] BAJAJFINSV - Bajaj Finserv Ltd | ROCE | Engine=11.71% | Source=21.14% | Difference=9.43%
+[VERSION DIFFERENCE] BAJAJHLDNG - Bajaj Holdings & Investment Ltd | ROCE | Engine=2.88% | Source=13.10% | Difference=10.22%
+[VERSION DIFFERENCE] BAJFINANCE - Bajaj Finance Ltd | ROCE | Engine=4.35% | Source=11.90% | Difference=7.55%
+[FORMULA DISCREPANCY] BEL - Bharat Electronics Ltd | ROE | Engine=4744.05% | Source=26.30% | Difference=4717.75%
+[FORMULA DISCREPANCY] BEL - Bharat Electronics Ltd | ROCE | Engine=3977.17% | Source=34.60% | Difference=3942.57%
+[VERSION DIFFERENCE] BHARTIARTL - Bharti Airtel Ltd | ROCE | Engine=26.25% | Source=13.10% | Difference=13.15%
+[VERSION DIFFERENCE] BPCL - Bharat Petroleum Corporation Ltd | ROE | Engine=35.51% | Source=41.90% | Difference=6.39%
+[VERSION DIFFERENCE] CHOLAFIN - Cholamandalam Investment & Finance Company Ltd | ROCE | Engine=3.50% | Source=10.40% | Difference=6.90%
+[FORMULA DISCREPANCY] CIPLA - Cipla Ltd | ROCE | Engine=71.46% | Source=22.80% | Difference=48.66%
+[VERSION DIFFERENCE] COALINDIA - Coal India Ltd | ROE | Engine=45.17% | Source=52.00% | Difference=6.83%
+[FORMULA DISCREPANCY] COALINDIA - Coal India Ltd | ROCE | Engine=105.71% | Source=63.60% | Difference=42.11%
+[VERSION DIFFERENCE] EICHERMOT - Eicher Motors Ltd | ROCE | Engine=23.45% | Source=31.10% | Difference=7.65%
+[VERSION DIFFERENCE] GODREJCP - Godrej Consumer Products Ltd | ROE | Engine=-4.45% | Source=6.77% | Difference=11.22%
+[VERSION DIFFERENCE] GODREJCP - Godrej Consumer Products Ltd | ROCE | Engine=18.69% | Source=26.49% | Difference=7.80%
+[FORMULA DISCREPANCY] HAL - Hindustan Aeronautics Ltd | ROE | Engine=3816.58% | Source=28.90% | Difference=3787.68%
+[FORMULA DISCREPANCY] HAL - Hindustan Aeronautics Ltd | ROCE | Engine=3027.64% | Source=38.90% | Difference=2988.74%
+[FORMULA DISCREPANCY] HDFCLIFE - HDFC Life Insurance Company Ltd | ROCE | Engine=646.46% | Source=6.61% | Difference=639.85%
+[FORMULA DISCREPANCY] HEROMOTOCO - Hero MotoCorp Ltd | ROCE | Engine=177.84% | Source=29.10% | Difference=148.74%
+[FORMULA DISCREPANCY] HINDALCO - Hindalco Industries Ltd | ROCE | Engine=118.21% | Source=11.30% | Difference=106.91%
+[FORMULA DISCREPANCY] HINDUNILVR - Hindustan Unilever Ltd | ROCE | Engine=89.63% | Source=27.20% | Difference=62.43%
+[FORMULA DISCREPANCY] ICICIGI - ICICI Lombard General Insurance Company Ltd | ROCE | Engine=146.32% | Source=22.50% | Difference=123.82%
+[FORMULA DISCREPANCY] ICICIPRULI - ICICI Prudential Life Insurance Company Ltd | ROCE | Engine=754.90% | Source=8.75% | Difference=746.15%
+[DATA SOURCE ISSUE] INDIGO - Interglobe Aviation Ltd: Source ROE is missing.
+[FORMULA DISCREPANCY] INDIGO - Interglobe Aviation Ltd | ROCE | Engine=5640.88% | Source=24.50% | Difference=5616.38%
+[VERSION DIFFERENCE] IRCTC - Indian Railway Catering & Tourism Corporation Ltd | ROE | Engine=34.40% | Source=40.40% | Difference=6.00%
+[VERSION DIFFERENCE] IRCTC - Indian Railway Catering & Tourism Corporation Ltd | ROCE | Engine=44.56% | Source=53.80% | Difference=9.24%
+[VERSION DIFFERENCE] LICI - Life Insurance Corporation of India | ROE | Engine=49.45% | Source=63.61% | Difference=14.16%
+[FORMULA DISCREPANCY] LICI - Life Insurance Corporation of India | ROCE | Engine=39.61% | Source=63.79% | Difference=24.18%
+[FORMULA DISCREPANCY] LT - Larsen & Toubro Ltd | ROE | Engine=77.67% | Source=10.49% | Difference=67.18%
+[FORMULA DISCREPANCY] LT - Larsen & Toubro Ltd | ROCE | Engine=135.20% | Source=17.18% | Difference=118.02%
+[VERSION DIFFERENCE] LTIM - LTIMindtree Ltd | ROCE | Engine=28.91% | Source=34.10% | Difference=5.19%
+[VERSION DIFFERENCE] M&M - Mahindra & Mahindra Ltd | ROCE | Engine=14.24% | Source=26.98% | Difference=12.74%
+[VERSION DIFFERENCE] MOTHERSON - Samvardhana Motherson International Ltd | ROCE | Engine=20.23% | Source=13.70% | Difference=6.53%
+[VERSION DIFFERENCE] NESTLEIND - Nestle India Ltd | ROE | Engine=117.75% | Source=135.61% | Difference=17.86%
+[FORMULA DISCREPANCY] NESTLEIND - Nestle India Ltd | ROCE | Engine=157.75% | Source=185.43% | Difference=27.68%
+[VERSION DIFFERENCE] PFC - Power Finance Corporation Ltd | ROE | Engine=26.16% | Source=19.49% | Difference=6.67%
+[VERSION DIFFERENCE] PFC - Power Finance Corporation Ltd | ROCE | Engine=3.49% | Source=9.96% | Difference=6.47%
+[FORMULA DISCREPANCY] PNB - Punjab National Bank | ROE | Engine=61.32% | Source=8.70% | Difference=52.62%
+[VERSION DIFFERENCE] POWERGRID - Power Grid Corporation of India Ltd | ROCE | Engine=18.91% | Source=13.20% | Difference=5.71%
+[VERSION DIFFERENCE] SBILIFE - SBI Life Insurance Company Ltd | ROCE | Engine=1.65% | Source=13.20% | Difference=11.55%
+[VERSION DIFFERENCE] SHREECEM - Shree Cement Ltd | ROCE | Engine=20.21% | Source=14.80% | Difference=5.41%
+[VERSION DIFFERENCE] SHRIRAMFIN - Shriram Finance Ltd | ROCE | Engine=4.30% | Source=11.30% | Difference=7.00%
+[VERSION DIFFERENCE] SIEMENS - Siemens Ltd | ROCE | Engine=19.85% | Source=25.60% | Difference=5.75%
+[VERSION DIFFERENCE] TATAMOTORS - Tata Motors Ltd | ROE | Engine=37.46% | Source=49.40% | Difference=11.94%
+[VERSION DIFFERENCE] TATAMOTORS - Tata Motors Ltd | ROCE | Engine=30.98% | Source=20.10% | Difference=10.88%
+[VERSION DIFFERENCE] TATASTEEL - Tata Steel Ltd | ROE | Engine=-5.33% | Source=6.55% | Difference=11.88%
+[VERSION DIFFERENCE] TATASTEEL - Tata Steel Ltd | ROCE | Engine=12.42% | Source=7.02% | Difference=5.40%
+[FORMULA DISCREPANCY] TCS - Tata Consultancy Services Ltd | ROE | Engine=50.94% | Source=0.52% | Difference=50.42%
+[VERSION DIFFERENCE] TORNTPHARM - Torrent Pharmaceuticals Ltd | ROCE | Engine=30.96% | Source=23.20% | Difference=7.76%
+[VERSION DIFFERENCE] TRENT - Trent Ltd | ROE | Engine=36.31% | Source=27.20% | Difference=9.11%
+[VERSION DIFFERENCE] TRENT - Trent Ltd | ROCE | Engine=33.86% | Source=23.80% | Difference=10.06%
+[DATA SOURCE ISSUE] TVSMOTOR - TVS Motor Company Ltd: Source ROE is missing.
+[DATA SOURCE ISSUE] TVSMOTOR - TVS Motor Company Ltd: Source ROCE is missing.
+
+================================================================================
+FINANCIALS SECTOR LEVERAGE CHECK
+================================================================================
+PASS: Financials-sector high leverage warnings are suppressed.
+
+================================================================================
+SUMMARY
+================================================================================
+Companies checked: 92
+Ratio rows checked: 1073
+Anomalies documented: 61
+
+Categories used:
+DATA SOURCE ISSUE = missing or unavailable source/calculated data
+VERSION DIFFERENCE = source and engine values differ but may reflect different source versions
+FORMULA DISCREPANCY = unusually large difference requiring formula/data investigation
+
+================================================================================
