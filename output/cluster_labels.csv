@@ -1,0 +1,93 @@
+company_id,cluster_id,cluster_name,distance_from_centroid
+ABB,0,High-Quality Compounders,0.6518198852274433
+ADANIENSOL,0,High-Quality Compounders,1.3258553884944781
+ADANIENT,0,High-Quality Compounders,1.3529363178105693
+ADANIPOWER,0,High-Quality Compounders,1.1160670056623472
+AMBUJACEM,0,High-Quality Compounders,1.010872397286838
+APOLLOHOSP,0,High-Quality Compounders,0.5396199277620032
+ASIANPAINT,0,High-Quality Compounders,0.3870898714645832
+ATGL,0,High-Quality Compounders,1.863173188265312
+BAJAJ-AUTO,0,High-Quality Compounders,0.654991195928283
+BHEL,0,High-Quality Compounders,2.3914760459113413
+BOSCHLTD,0,High-Quality Compounders,0.935260172403159
+BPCL,0,High-Quality Compounders,0.5306030209727245
+BRITANNIA,0,High-Quality Compounders,1.6139369234281367
+DABUR,0,High-Quality Compounders,0.8539766427912454
+DIVISLAB,0,High-Quality Compounders,0.77839365520287
+DLF,0,High-Quality Compounders,2.4374803052280374
+DMART,0,High-Quality Compounders,1.332283731162302
+DRREDDY,0,High-Quality Compounders,1.212518975202626
+EICHERMOT,0,High-Quality Compounders,0.48048952211733725
+GAIL,0,High-Quality Compounders,0.36475242393957796
+GODREJCP,0,High-Quality Compounders,0.6867058122726649
+GRASIM,0,High-Quality Compounders,0.7910930665691431
+HAVELLS,0,High-Quality Compounders,0.89648408970194
+HCLTECH,0,High-Quality Compounders,0.48848762202912943
+INFY,0,High-Quality Compounders,0.3633415599966224
+IOC,0,High-Quality Compounders,0.5818757920712236
+IRCTC,0,High-Quality Compounders,1.353229222796543
+ITC,0,High-Quality Compounders,0.9026838543171708
+JINDALSTEL,0,High-Quality Compounders,1.3626110118768042
+JSWENERGY,0,High-Quality Compounders,1.3958405423411269
+JSWSTEEL,0,High-Quality Compounders,0.622305217587913
+LICI,0,High-Quality Compounders,2.0471793231074997
+LODHA,0,High-Quality Compounders,2.097042574425785
+LT,0,High-Quality Compounders,0.7883018994683039
+LTIM,0,High-Quality Compounders,2.629061768866774
+M&M,0,High-Quality Compounders,0.8373328008187745
+MARUTI,0,High-Quality Compounders,0.3365996836640984
+MOTHERSON,0,High-Quality Compounders,0.6073506338822046
+NAUKRI,0,High-Quality Compounders,0.8759961875025605
+NESTLEIND,0,High-Quality Compounders,0.5571670704767657
+NHPC,0,High-Quality Compounders,1.9912074267372628
+NTPC,0,High-Quality Compounders,0.4763208004985801
+ONGC,0,High-Quality Compounders,0.603046052233357
+PIDILITIND,0,High-Quality Compounders,0.48725804002233525
+RELIANCE,0,High-Quality Compounders,0.24795969375547544
+SBILIFE,0,High-Quality Compounders,1.9945589446300398
+SBIN,0,High-Quality Compounders,1.9146796387904885
+SHREECEM,0,High-Quality Compounders,0.2720810200426775
+SIEMENS,0,High-Quality Compounders,1.4286331182779322
+SUNPHARMA,0,High-Quality Compounders,1.1257894739501146
+TATACONSUM,0,High-Quality Compounders,1.6785299597744368
+TATAMOTORS,0,High-Quality Compounders,0.5873545190069805
+TATAPOWER,0,High-Quality Compounders,0.8190530876435871
+TATASTEEL,0,High-Quality Compounders,0.619145819930394
+TCS,0,High-Quality Compounders,0.3492043262820503
+TECHM,0,High-Quality Compounders,0.6304308302405296
+TITAN,0,High-Quality Compounders,1.5046310264542602
+TORNTPHARM,0,High-Quality Compounders,0.7613193977586912
+TRENT,0,High-Quality Compounders,3.4146264164505933
+TVSMOTOR,0,High-Quality Compounders,1.2127647463057196
+ADANIPORTS,1,Defensive Dividend Payers,1.3784097716842794
+BAJAJHLDNG,1,Defensive Dividend Payers,2.4435352703810445
+BHARTIARTL,1,Defensive Dividend Payers,1.283417678168801
+COALINDIA,1,Defensive Dividend Payers,1.125253246468474
+HDFCLIFE,1,Defensive Dividend Payers,1.3465643560317047
+HEROMOTOCO,1,Defensive Dividend Payers,1.7084998686364075
+HINDALCO,1,Defensive Dividend Payers,0.6123394764575275
+HINDUNILVR,1,Defensive Dividend Payers,0.7318081999861987
+ICICIGI,1,Defensive Dividend Payers,0.7421377432722029
+ICICIPRULI,1,Defensive Dividend Payers,2.2620574520542824
+INDIGO,1,Defensive Dividend Payers,2.420557577582805
+JIOFIN,1,Defensive Dividend Payers,0.8337557686847279
+KOTAKBANK,1,Defensive Dividend Payers,1.346570903474724
+POWERGRID,1,Defensive Dividend Payers,1.523812284968425
+BEL,2,Value Cyclicals,0.760545216552628
+HAL,2,Value Cyclicals,0.7605452165526327
+ADANIGREEN,3,Distressed or Turnaround,2.5031332143857843
+AXISBANK,3,Distressed or Turnaround,0.8971444640961213
+BAJAJFINSV,3,Distressed or Turnaround,1.025356455742406
+BAJFINANCE,3,Distressed or Turnaround,1.602899918493352
+BANKBARODA,3,Distressed or Turnaround,1.8030539458016202
+CANBK,3,Distressed or Turnaround,2.7044189558070717
+CHOLAFIN,3,Distressed or Turnaround,0.9219790339881405
+HDFCBANK,3,Distressed or Turnaround,0.5901832878208667
+ICICIBANK,3,Distressed or Turnaround,0.5755786232670712
+INDUSINDBK,3,Distressed or Turnaround,0.6622546401577348
+IRFC,3,Distressed or Turnaround,1.8488419495266002
+PFC,3,Distressed or Turnaround,1.2801583230565468
+PNB,3,Distressed or Turnaround,1.3724727951042959
+RECLTD,3,Distressed or Turnaround,2.027052407344194
+SHRIRAMFIN,3,Distressed or Turnaround,1.3870889794192307
+CIPLA,4,Emerging Growth,0.0

@@ -26,12 +26,6 @@ def calculate_cfo_quality_score(cfo_values, pat_values):
 
     Returns:
         (average_ratio, classification)
-
-    Returns (None, None) if:
-        - lists are empty
-        - list lengths differ
-        - any PAT value is zero
-        - any required value is None
     """
 
     if len(cfo_values) != len(pat_values):
@@ -74,8 +68,6 @@ def calculate_capex_intensity(investing_activity, sales):
 
     Returns:
         (percentage, classification)
-
-    Returns (None, None) if sales is zero or missing.
     """
 
     if investing_activity is None or sales is None or sales == 0:
@@ -133,9 +125,6 @@ def classify_capital_allocation(
         (+, +, +) -> Cash Accumulator
         (-, -, -) -> Pre-Revenue
         (+, -, +) -> Mixed
-
-    Returns:
-        "Unknown" for unsupported patterns.
     """
 
     pattern = (cfo_sign, cfi_sign, cff_sign)
@@ -166,3 +155,40 @@ def classify_capital_allocation(
 
     return "Unknown"
 
+
+def detect_distress_signal(cfo, cff):
+    """
+    Detect a separate distress alert.
+
+    Distress condition:
+        CFO < 0 AND CFF > 0
+
+    This is separate from capital-allocation classification.
+    """
+
+    if cfo is None or cff is None:
+        return False
+
+    return cfo < 0 and cff > 0
+
+
+def detect_deleveraging(latest_cff, latest_borrowings, previous_borrowings):
+    """
+    Detect a deleveraging signal.
+
+    Deleveraging condition:
+        Latest CFF < 0
+        AND latest borrowings < previous-year borrowings
+    """
+
+    if (
+        latest_cff is None
+        or latest_borrowings is None
+        or previous_borrowings is None
+    ):
+        return False
+
+    return (
+        latest_cff < 0
+        and latest_borrowings < previous_borrowings
+    )

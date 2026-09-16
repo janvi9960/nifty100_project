@@ -1,0 +1,10 @@
+company_id,broad_sector,metric,value,z_score
+BAJAJHLDNG,Financials,net_profit_margin,432.7262044653349,4.4978139114942115
+BAJAJHLDNG,Financials,interest_coverage,3764.5,3.58874950243471
+INDIGO,Consumer Discretionary,return_on_capital,5640.87982832618,3.473055872653891
+INDIGO,Consumer Discretionary,return_on_assets,668.3306055646481,3.47266894209731
+INDIGO,Consumer Discretionary,return_on_equity,892.568306010929,3.471902785993034
+PNB,Financials,return_on_equity,61.320565191187306,3.2495226363195013
+ICICIPRULI,Financials,return_on_capital,754.9037279803359,3.2222832961837735
+PNB,Financials,return_on_assets,12.652858189053626,3.155838654733817
+ADANIGREEN,Energy,debt_to_equity,6.595281675818589,3.1428777700392247

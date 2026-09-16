@@ -1,0 +1,817 @@
+company_id,year,sentiment,rule_id,statement,confidence_score,trigger_metric,trigger_value
+ABB,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,32.46823465801568
+ABB,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,95.5,return_on_equity,32.46823465801568
+ABB,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,38.41882601797991
+ABB,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,23.127286732139417
+ABB,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,84.7,revenue_cagr_3yr,10.713721789385655
+ABB,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,20.232437941096727
+ABB,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,19.75338045077737
+ABB,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.022438496891051634
+ABB,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,141.75
+ABB,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,797.0
+ABB,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+ADANIENSOL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,92.7,revenue_cagr_3yr,18.715011322879892
+ADANIENSOL,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1095.0
+ADANIENSOL,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,9.461276797721698
+ADANIENSOL,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.043117291332126
+ADANIENSOL,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,-2.4904490462308027
+ADANIENSOL,2024,CON,CON_07,Negative three-year profit CAGR indicates earnings contraction.,92.0,pat_cagr_3yr,-2.4904490462308027
+ADANIENSOL,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,2.93252116130053
+ADANIENT,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,34.60338228109774
+ADANIENT,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,47.182006037517255
+ADANIENT,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,8.534650424813185
+ADANIENT,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.076768834144944
+ADANIENT,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.671358378544375
+ADANIENT,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-8455.0
+ADANIGREEN,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,43.44099813858789
+ADANIGREEN,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,90.58982840512462
+ADANIGREEN,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,9.797568682054303
+ADANIGREEN,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.430420271098699
+ADANIGREEN,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,6.595281675818589
+ADANIGREEN,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.713943268078306
+ADANIGREEN,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-13347.0
+ADANIGREEN,2024,CON,CON_11,The financial model identifies the company as highly leveraged.,94.0,high_leverage_flag,1.0
+ADANIPORTS,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,82.4,return_on_equity,15.3548827162833
+ADANIPORTS,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,82.2,return_on_capital,15.246263985603631
+ADANIPORTS,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,79.9,return_on_assets,6.926554927819896
+ADANIPORTS,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,28.631936311849437
+ADANIPORTS,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,18.65179197239284
+ADANIPORTS,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,91.1,pat_cagr_3yr,17.084126579285687
+ADANIPORTS,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.6,pat_cagr_10yr,16.624572854327614
+ADANIPORTS,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,5.949506037321624
+ADANIPORTS,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,8250.0
+ADANIPORTS,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+ADANIPOWER,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,48.27674122146251
+ADANIPOWER,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,48.27674122146251
+ADANIPOWER,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,90.4,return_on_capital,23.441056570774553
+ADANIPOWER,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,22.638002804073516
+ADANIPOWER,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,24.294797156226156
+ADANIPOWER,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,92.6,revenue_cagr_10yr,12.629527157691523
+ADANIPOWER,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,154.07088459944453
+ADANIPOWER,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,8.297225501770956
+ADANIPOWER,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,17651.0
+ADANIPOWER,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,76.16
+ADANIPOWER,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+AMBUJACEM,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,82.2,return_on_capital,15.182066184319773
+AMBUJACEM,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,80.3,return_on_assets,7.2600787606687
+AMBUJACEM,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,92.8,revenue_cagr_10yr,12.786553484793739
+AMBUJACEM,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,92.3,pat_cagr_10yr,12.286723339088713
+AMBUJACEM,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.01686125048243921
+AMBUJACEM,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,28.264492753623188
+AMBUJACEM,2024,CON,CON_04,Low three-year revenue CAGR indicates subdued recent business growth.,82.0,revenue_cagr_3yr,4.611716860010384
+AMBUJACEM,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-3295.0
+APOLLOHOSP,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,86.5,return_on_capital,19.51259271334257
+APOLLOHOSP,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,78.6,return_on_assets,5.5847568988173455
+APOLLOHOSP,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,21.752736351876713
+APOLLOHOSP,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,95.9,revenue_cagr_10yr,15.90208668517812
+APOLLOHOSP,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,89.6838465061924
+APOLLOHOSP,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,91.5,pat_cagr_10yr,11.493642912195057
+APOLLOHOSP,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,5.565701559020044
+APOLLOHOSP,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,383.0
+APOLLOHOSP,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+ASIANPAINT,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,29.677488252883382
+ASIANPAINT,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,92.7,return_on_equity,29.677488252883382
+ASIANPAINT,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,35.774926893689276
+ASIANPAINT,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,18.588007090063876
+ASIANPAINT,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,91.8,revenue_cagr_3yr,17.801037676951047
+ASIANPAINT,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,91.3,revenue_cagr_10yr,11.25245350301849
+ASIANPAINT,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,20.117567163333238
+ASIANPAINT,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.0,pat_cagr_10yr,15.971565352132288
+ASIANPAINT,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.1321016659547202
+ASIANPAINT,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,41.00487804878049
+ASIANPAINT,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,3556.0
+ASIANPAINT,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+ATGL,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,85.7,return_on_equity,18.65921787709497
+ATGL,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,88.5,return_on_capital,21.491142690286157
+ATGL,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,83.1,return_on_assets,10.133495145631068
+ATGL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,38.18335427451367
+ATGL,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,87.0,pat_cagr_3yr,12.99654305433795
+ATGL,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.43491620111731844
+ATGL,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,10.504504504504505
+ATGL,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+AXISBANK,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,82.8,return_on_equity,15.832712405189048
+AXISBANK,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,19.966046890428714
+AXISBANK,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,93.6,revenue_cagr_10yr,13.568824505023214
+AXISBANK,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,55.68795030685318
+AXISBANK,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,94.9,pat_cagr_10yr,14.864754204532193
+AXISBANK,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,2.612569500628303
+AXISBANK,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.6374892227113123
+AXISBANK,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,8.249122739980766
+AXISBANK,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.691203992514036
+AXISBANK,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-14556.0
+BAJAJ-AUTO,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,26.61418410330778
+BAJAJ-AUTO,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,89.6,return_on_equity,26.61418410330778
+BAJAJ-AUTO,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,28.389583468290468
+BAJAJ-AUTO,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,19.59129727531517
+BAJAJ-AUTO,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,91.4,revenue_cagr_3yr,17.384652616671946
+BAJAJ-AUTO,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,90.6,pat_cagr_3yr,16.642781522818396
+BAJAJ-AUTO,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.06601754022512257
+BAJAJ-AUTO,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,174.41666666666666
+BAJAJ-AUTO,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,6486.0
+BAJAJ-AUTO,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+BAJAJFINSV,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,25.850351412279537
+BAJAJFINSV,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,88.9,return_on_equity,25.850351412279537
+BAJAJFINSV,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,22.131490415528443
+BAJAJFINSV,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,33.754542295740954
+BAJAJFINSV,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,28.399964328592418
+BAJAJFINSV,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,21.684230519873758
+BAJAJFINSV,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.9018542467180857
+BAJAJFINSV,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,4.789368120938867
+BAJAJFINSV,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-79634.0
+BAJAJHLDNG,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,84.3,return_on_assets,11.302773131167417
+BAJAJHLDNG,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,55.00574158769729
+BAJAJHLDNG,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,94.9,revenue_cagr_10yr,14.937545587928923
+BAJAJHLDNG,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,26.318822706492305
+BAJAJHLDNG,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,94.0,pat_cagr_10yr,13.992331678744474
+BAJAJHLDNG,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.0011613545449517945
+BAJAJHLDNG,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,3764.5
+BAJAJHLDNG,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1469.0
+BAJAJHLDNG,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,2.8760817529000184
+BAJFINANCE,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,85.8,return_on_equity,18.841921351830603
+BAJFINANCE,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,27.259405758095312
+BAJFINANCE,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,48.41981202939976
+BAJFINANCE,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,2689.1666666666665
+BAJFINANCE,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,4.350587230638684
+BAJFINANCE,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,3.824788776468134
+BAJFINANCE,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-79931.0
+BANKBARODA,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,82.8,return_on_equity,15.761863790899902
+BANKBARODA,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,90.8,revenue_cagr_3yr,16.788839489625307
+BANKBARODA,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,91.3,revenue_cagr_10yr,11.33242243391459
+BANKBARODA,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,126.679000994827
+BANKBARODA,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,94.1,pat_cagr_10yr,14.121196486586761
+BANKBARODA,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,2.8204469854601983
+BANKBARODA,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.1402758683204666
+BANKBARODA,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,12.143718727289434
+BANKBARODA,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.8967477242617206
+BANKBARODA,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-7559.0
+BEL,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,4744.047619047619
+BEL,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,4744.047619047619
+BEL,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,3977.165354330709
+BEL,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,2475.1552795031057
+BEL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,86.8,revenue_cagr_3yr,12.8335418079377
+BEL,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,92.0,revenue_cagr_10yr,12.01331595775741
+BEL,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,23.80447523322802
+BEL,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,95.4,pat_cagr_10yr,15.392913221732885
+BEL,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,476.75
+BEL,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,82.56
+BEL,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-1265.0
+BHARTIARTL,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,26.253894054880604
+BHARTIARTL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,88.2,revenue_cagr_3yr,14.232767250604962
+BHARTIARTL,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,91.0,pat_cagr_10yr,10.981583453663312
+BHARTIARTL,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,27809.0
+BHARTIARTL,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.9361158683224027
+BHARTIARTL,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,2.6094723973904306
+BHEL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,85.3,revenue_cagr_3yr,11.343850250620191
+BHEL,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.36238644733611586
+BHEL,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,1.1539405843358703
+BHEL,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,2.1355199134979275
+BHEL,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,0.4716665551615709
+BHEL,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.5929951690821256
+BHEL,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-2382.0
+BOSCHLTD,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,87.6,return_on_equity,20.639920424403183
+BOSCHLTD,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,84.3,return_on_capital,17.30975791126167
+BOSCHLTD,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,87.3,return_on_assets,14.34745030250648
+BOSCHLTD,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,93.8,revenue_cagr_3yr,19.843289373663996
+BOSCHLTD,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,72.86912600423906
+BOSCHLTD,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.003232758620689655
+BOSCHLTD,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,71.7843137254902
+BOSCHLTD,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1536.0
+BOSCHLTD,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+BPCL,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,35.511337343822305
+BPCL,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,35.511337343822305
+BPCL,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,33.84830382235054
+BPCL,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,86.3,return_on_assets,13.26907686075349
+BPCL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,24.863629368132333
+BPCL,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,89.7,pat_cagr_3yr,15.748130122124548
+BPCL,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,20.817911347727637
+BPCL,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,11.355507351168956
+BPCL,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,25415.0
+BPCL,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,76.2
+BPCL,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+BRITANNIA,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,54.14869322506978
+BRITANNIA,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,54.14869322506978
+BRITANNIA,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,52.730602730602726
+BRITANNIA,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,23.522927689594354
+BRITANNIA,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,18.37492911445593
+BRITANNIA,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,20.597560975609756
+BRITANNIA,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,3050.0
+BRITANNIA,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,70.67
+BRITANNIA,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,4.856654873228505
+CANBK,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,83.7,return_on_equity,16.716051794688113
+CANBK,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,90.3,revenue_cagr_3yr,16.302939300232524
+CANBK,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,90.8,revenue_cagr_10yr,10.817178802179583
+CANBK,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,73.3401622666352
+CANBK,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,19.14374492187123
+CANBK,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,13296.0
+CANBK,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,3.15654898752525
+CANBK,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.0033107103630055
+CANBK,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,14.867419925542423
+CANBK,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.6106611743349857
+CHOLAFIN,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,84.5,return_on_equity,17.455213596692694
+CHOLAFIN,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,25.985530916686983
+CHOLAFIN,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,19.308726010179612
+CHOLAFIN,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,31.008346108097527
+CHOLAFIN,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,24.97347005007167
+CHOLAFIN,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,21.211764705882352
+CHOLAFIN,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,3.495209907313654
+CHOLAFIN,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.1827093677801463
+CHOLAFIN,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,6.863420609401317
+CHOLAFIN,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-38538.0
+CIPLA,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,82.6,return_on_equity,15.554557028383135
+CIPLA,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,71.45791307537137
+CIPLA,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,85.8,return_on_assets,12.768573448498447
+CIPLA,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,84.4,revenue_cagr_3yr,10.389755935227928
+CIPLA,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,20.249546582874324
+CIPLA,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,91.5,pat_cagr_10yr,11.457664472874352
+CIPLA,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.020931625851868495
+CIPLA,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,35.33876811594203
+CIPLA,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1152.0
+CIPLA,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+COALINDIA,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,45.16982956605826
+COALINDIA,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,45.16982956605826
+COALINDIA,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,105.7129732333927
+COALINDIA,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,15.802850255846407
+COALINDIA,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,90.5,revenue_cagr_3yr,16.493956528516662
+COALINDIA,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,43.28908935217686
+COALINDIA,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.0788468512027076
+COALINDIA,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,11.24178180085755
+COALINDIA,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,13617.0
+COALINDIA,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,92.37
+COALINDIA,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+DABUR,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,85.4,return_on_equity,18.355969997972835
+DABUR,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,88.4,return_on_capital,21.369423915946932
+DABUR,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,85.0,return_on_assets,11.980682720296375
+DABUR,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.13835394283397526
+DABUR,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,23.241935483870968
+DABUR,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1042.0
+DABUR,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,2.231072252692079
+DIVISLAB,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,83.3,return_on_capital,16.281125681449833
+DIVISLAB,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,83.3,return_on_assets,10.34928848641656
+DIVISLAB,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,92.0,revenue_cagr_10yr,11.972899602171317
+DIVISLAB,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.0002210596124088129
+DIVISLAB,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,636.25
+DIVISLAB,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,992.0
+DIVISLAB,2024,CON,CON_04,Low three-year revenue CAGR indicates subdued recent business growth.,82.0,revenue_cagr_3yr,4.025743333608478
+DIVISLAB,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,-6.919343378939391
+DIVISLAB,2024,CON,CON_07,Negative three-year profit CAGR indicates earnings contraction.,92.0,pat_cagr_3yr,-6.919343378939391
+DLF,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,35.99602527786225
+DLF,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.5,pat_cagr_10yr,16.52939969024585
+DLF,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.12259389820192235
+DLF,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,7.457865168539326
+DLF,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1010.0
+DLF,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,6.908270142781061
+DLF,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,4.7983734327346665
+DMART,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,88.3,return_on_capital,21.28564022809746
+DMART,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,85.0,return_on_assets,11.978084262233137
+DMART,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,28.132551951927297
+DMART,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,26.91026114651347
+DMART,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,32.144934169439935
+DMART,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,31.744452601738082
+DMART,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.031661140228901485
+DMART,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,73.29310344827586
+DMART,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,278.0
+DMART,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+DRREDDY,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,86.7,return_on_equity,19.74233736816026
+DRREDDY,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,26.219592808038072
+DRREDDY,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,87.4,return_on_assets,14.383702939659617
+DRREDDY,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,87.7,revenue_cagr_3yr,13.71726615103832
+DRREDDY,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,41.90561020689674
+DRREDDY,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,91.0,pat_cagr_10yr,11.008394366816532
+DRREDDY,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.07085722375592836
+DRREDDY,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,51.707602339181285
+DRREDDY,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,509.0
+DRREDDY,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+EICHERMOT,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,89.2,return_on_equity,22.172346910501524
+EICHERMOT,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,90.4,return_on_capital,23.445623916811094
+EICHERMOT,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,17.309106640709494
+EICHERMOT,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,23.776441520116
+EICHERMOT,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,43.747506025200565
+EICHERMOT,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,19.00991470281268
+EICHERMOT,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.023219728456636186
+EICHERMOT,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,114.70588235294117
+EICHERMOT,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,890.0
+EICHERMOT,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+GAIL,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,80.9,return_on_assets,7.939231170080571
+GAIL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,32.42353373080278
+GAIL,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,91.3,pat_cagr_3yr,17.25429359158057
+GAIL,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.28304998896060884
+GAIL,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,23.624478442280946
+GAIL,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,4360.0
+GAIL,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+GODREJCP,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,85.7,return_on_capital,18.691529709228824
+GODREJCP,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.2557548817272583
+GODREJCP,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,-4.45308779171297
+GODREJCP,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,-3.050239234449761
+GODREJCP,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-1365.0
+GRASIM,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,93.7,revenue_cagr_3yr,19.68160909363319
+GRASIM,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,96.5,revenue_cagr_10yr,16.544999689655548
+GRASIM,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,86.4,pat_cagr_3yr,12.415926079345653
+GRASIM,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,92.9,pat_cagr_10yr,12.885036563882046
+GRASIM,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.4085451668947577
+GRASIM,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.5470993649397087
+GRASIM,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-33833.0
+HAL,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,3816.5829145728644
+HAL,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,3816.5829145728644
+HAL,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,3027.639751552795
+HAL,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,1687.7777777777776
+HAL,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,32.85327865470051
+HAL,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,90.9,pat_cagr_10yr,10.924924675843673
+HAL,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,270.8837209302326
+HAL,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1814.0
+HAL,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,85.6
+HAL,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+HAVELLS,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,84.1,return_on_equity,17.067275412917954
+HAVELLS,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,91.3,return_on_capital,24.270967741935483
+HAVELLS,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,83.2,return_on_assets,10.222794176787582
+HAVELLS,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,21.14089015706202
+HAVELLS,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,91.0,pat_cagr_10yr,11.040413196880138
+HAVELLS,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.040687525177924
+HAVELLS,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,25.357142857142858
+HAVELLS,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,335.0
+HAVELLS,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+HCLTECH,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,90.0,return_on_equity,23.01393141233172
+HCLTECH,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,32.690722902959976
+HCLTECH,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,15.867725188372422
+HCLTECH,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,87.4,revenue_cagr_3yr,13.396477329776978
+HCLTECH,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,93.1,revenue_cagr_10yr,13.082373204583831
+HCLTECH,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,86.0,pat_cagr_3yr,12.043662852781601
+HCLTECH,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.08435023365512796
+HCLTECH,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,46.46112115732369
+HCLTECH,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,15840.0
+HCLTECH,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+HDFCBANK,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,30.186956140948773
+HDFCBANK,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,20.887964823195592
+HDFCBANK,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,27.12356908487252
+HDFCBANK,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,22.263903320427715
+HDFCBANK,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,35669.0
+HDFCBANK,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,4.887792835880029
+HDFCBANK,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.6238920508541275
+HDFCBANK,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,6.808786667718385
+HDFCBANK,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.4007688224792112
+HDFCBANK,2024,CON,CON_12,The interest coverage warning flag indicates potential debt-servicing pressure.,94.0,icr_warning_flag,1.0
+HDFCLIFE,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,646.4587602459017
+HDFCLIFE,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,86.4,revenue_cagr_3yr,12.366704821498665
+HDFCLIFE,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,19.44610458066991
+HDFCLIFE,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.06477567162143734
+HDFCLIFE,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,192.2895238095238
+HDFCLIFE,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,0.5200091183301563
+HDFCLIFE,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,4.966053172356233
+HDFCLIFE,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-2893.0
+HEROMOTOCO,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,88.1,return_on_equity,21.14243742584327
+HEROMOTOCO,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,177.84211963944279
+HEROMOTOCO,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,87.3,return_on_assets,14.308109968263679
+HEROMOTOCO,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.03423922255494661
+HEROMOTOCO,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,47.268505079825836
+HEROMOTOCO,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,3095.0
+HEROMOTOCO,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,73.8
+HEROMOTOCO,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+HINDALCO,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,118.20777590429657
+HINDALCO,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,91.8,revenue_cagr_3yr,17.830855223435172
+HINDALCO,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,42.85939867649064
+HINDALCO,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.6,pat_cagr_10yr,16.553290877299798
+HINDALCO,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,126.46543778801843
+HINDALCO,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,9789.0
+HINDALCO,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,9.567011474761177
+HINDUNILVR,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,87.1,return_on_equity,20.074973642078955
+HINDUNILVR,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,89.63037455884027
+HINDUNILVR,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,86.1,return_on_assets,13.099924830230988
+HINDUNILVR,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,90.0,pat_cagr_10yr,10.022657733318274
+HINDUNILVR,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.028974188761763442
+HINDUNILVR,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,57.847001223990205
+HINDUNILVR,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,10145.0
+HINDUNILVR,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,70.32
+HINDUNILVR,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+ICICIBANK,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,85.0,return_on_equity,17.99027109750765
+ICICIBANK,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,21.39660074377121
+ICICIBANK,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,92.4,revenue_cagr_10yr,12.41864172369489
+ICICIBANK,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,31.28635844345755
+ICICIBANK,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,94.7,pat_cagr_10yr,14.714696775470282
+ICICIBANK,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,12547.0
+ICICIBANK,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,5.2203495054405735
+ICICIBANK,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.9492289334082888
+ICICIBANK,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,6.445624336310825
+ICICIBANK,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.3009461331381824
+ICICIBANK,2024,CON,CON_12,The interest coverage warning flag indicates potential debt-servicing pressure.,94.0,icr_warning_flag,1.0
+ICICIGI,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,82.7,return_on_equity,15.7230643179025
+ICICIGI,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,146.3235294117647
+ICICIGI,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,93.0,revenue_cagr_3yr,18.98796206427069
+ICICIGI,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,96.8,revenue_cagr_10yr,16.75593015728085
+ICICIGI,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,93.9,pat_cagr_10yr,13.948119696893514
+ICICIGI,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.0028676771814829987
+ICICIGI,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,160.02678571428572
+ICICIGI,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,486.0
+ICICIGI,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+ICICIPRULI,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,754.9037279803359
+ICICIPRULI,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,95.2,revenue_cagr_10yr,15.22627795803697
+ICICIPRULI,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.10904134484325306
+ICICIPRULI,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,31.021548821548823
+ICICIPRULI,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,105.0
+ICICIPRULI,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,7.732848705134029
+ICICIPRULI,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,0.28461443272764975
+ICICIPRULI,2024,CON,CON_04,Low three-year revenue CAGR indicates subdued recent business growth.,82.0,revenue_cagr_3yr,2.777335010929405
+ICICIPRULI,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,-3.803953723638853
+ICICIPRULI,2024,CON,CON_07,Negative three-year profit CAGR indicates earnings contraction.,92.0,pat_cagr_3yr,-3.803953723638853
+INDIGO,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,892.568306010929
+INDIGO,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,892.568306010929
+INDIGO,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,5640.87982832618
+INDIGO,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,668.3306055646481
+INDIGO,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,67.58091776468258
+INDIGO,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,20.01227897172877
+INDIGO,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,32.9316579498421
+INDIGO,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.018579234972677595
+INDIGO,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,22.612639724849526
+INDIGO,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,9424.0
+INDIGO,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,95.55
+INDIGO,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+INDUSINDBK,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,90.4,revenue_cagr_3yr,16.410290098595137
+INDUSINDBK,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,18.67814919085109
+INDUSINDBK,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,46.680462139134974
+INDUSINDBK,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,20.315626837511314
+INDUSINDBK,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,3.5617860222414732
+INDUSINDBK,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.7380834474254032
+INDUSINDBK,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,6.885742949503957
+INDUSINDBK,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.8795270558159352
+INDUSINDBK,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-17468.0
+INFY,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,29.788006718416632
+INFY,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,92.8,return_on_equity,29.788006718416632
+INFY,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,37.75589530966572
+INFY,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,19.297162182032054
+INFY,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,89.2,revenue_cagr_3yr,15.216500798806365
+INFY,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,91.9,revenue_cagr_10yr,11.852717458931128
+INFY,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,84.6,pat_cagr_3yr,10.558796476740762
+INFY,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.09486358890553362
+INFY,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,87.52340425531915
+INFY,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,20117.0
+INFY,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,73.52
+INFY,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+IOC,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,90.5,return_on_equity,23.53162465856491
+IOC,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,90.9,return_on_capital,23.93519910139379
+IOC,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,81.9,return_on_assets,8.941893540895371
+IOC,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,28.727791225279177
+IOC,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,25.64085913541887
+IOC,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,20.006444481866815
+IOC,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,10.282324578099226
+IOC,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,39635.0
+IOC,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+IRCTC,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,34.39628482972136
+IRCTC,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,34.39628482972136
+IRCTC,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,44.559270516717326
+IRCTC,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,18.240026268264653
+IRCTC,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,76.46921430165466
+IRCTC,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,81.11627776293705
+IRCTC,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.018575851393188854
+IRCTC,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,82.73684210526316
+IRCTC,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,667.0
+IRCTC,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+IRFC,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,93.1,revenue_cagr_3yr,19.101938730495593
+IRFC,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,95.7,revenue_cagr_10yr,15.702681143154496
+IRFC,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,87.2,pat_cagr_3yr,13.236946449292141
+IRFC,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,24.774991677745327
+IRFC,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,7906.0
+IRFC,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,5.7484746909270665
+IRFC,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.3218383695952436
+IRFC,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,8.378352548852153
+IRFC,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.3194865927068304
+IRFC,2024,CON,CON_12,The interest coverage warning flag indicates potential debt-servicing pressure.,94.0,icr_warning_flag,1.0
+ITC,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,27.851074395694365
+ITC,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,90.9,return_on_equity,27.851074395694365
+ITC,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,35.06616762464911
+ITC,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,22.61590775334045
+ITC,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,86.9,revenue_cagr_3yr,12.890307004910628
+ITC,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,89.7,pat_cagr_3yr,15.743119736566346
+ITC,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.004066731984914169
+ITC,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,362.9625
+ITC,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,18742.0
+ITC,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,71.58
+ITC,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+JINDALSTEL,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,83.8,return_on_capital,16.782917681121273
+JINDALSTEL,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,80.6,return_on_assets,7.553764807565204
+JINDALSTEL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,87.3,revenue_cagr_3yr,13.346256701428505
+JINDALSTEL,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,90.1,revenue_cagr_10yr,10.07258893564078
+JINDALSTEL,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,85.7,pat_cagr_3yr,11.676303196350535
+JINDALSTEL,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,92.1,pat_cagr_10yr,12.10287216940693
+JINDALSTEL,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.3716941962270963
+JINDALSTEL,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,8.004636785162287
+JINDALSTEL,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-2336.0
+JIOFIN,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.0
+JIOFIN,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,198.8
+JIOFIN,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,763.0
+JIOFIN,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,1.153456416595399
+JIOFIN,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,1.1203978526306713
+JIOFIN,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.1079433671814058
+JSWENERGY,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,92.4,revenue_cagr_3yr,18.389287172901202
+JSWENERGY,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,27.976360369609466
+JSWENERGY,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,8.280529953917052
+JSWENERGY,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.98613395191026
+JSWENERGY,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.5156009984639016
+JSWENERGY,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-1963.0
+JSWSTEEL,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,84.0,return_on_capital,16.99757927716371
+JSWSTEEL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,29.901036567598815
+JSWSTEEL,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,93.1,revenue_cagr_10yr,13.073630495009247
+JSWSTEEL,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,36.417837709582315
+JSWSTEEL,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,4.455778963004109
+JSWSTEEL,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.1328071688833383
+JSWSTEEL,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-2389.0
+KOTAKBANK,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,93.7,revenue_cagr_3yr,19.66335897034557
+KOTAKBANK,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,96.7,revenue_cagr_10yr,16.717180300192645
+KOTAKBANK,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,22.162712282993226
+KOTAKBANK,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,21.836558926617357
+KOTAKBANK,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,6766.0
+KOTAKBANK,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,7.234918028249577
+KOTAKBANK,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.372513081844081
+KOTAKBANK,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,4.003739266919029
+KOTAKBANK,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.2363751084470385
+KOTAKBANK,2024,CON,CON_12,The interest coverage warning flag indicates potential debt-servicing pressure.,94.0,icr_warning_flag,1.0
+LICI,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,49.44710986501021
+LICI,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,49.44710986501021
+LICI,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,39.613520731869436
+LICI,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,139.6168760853028
+LICI,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.0
+LICI,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,371.9375
+LICI,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,853.0
+LICI,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,0.7696696436280568
+LODHA,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,23.70811095275156
+LODHA,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,218.7155543964547
+LODHA,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.4406663232010991
+LODHA,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,5.628630705394191
+LODHA,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,8.895758200240426
+LODHA,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-435.0
+LT,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,77.66510140873214
+LT,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,77.66510140873214
+LT,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,135.2030422382181
+LT,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,56.44423467905896
+LT,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,91.6,revenue_cagr_3yr,17.592821624288746
+LT,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,90.0,revenue_cagr_10yr,10.02514597108597
+LT,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,92.3,pat_cagr_10yr,12.273743409690363
+LT,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.10345688880007993
+LT,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,20445.0
+LT,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,97.37
+LT,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+LTIM,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,89.9,return_on_equity,22.904386052552702
+LTIM,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,28.914844492733938
+LTIM,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,16.64609352309033
+LTIM,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,42.13101535214459
+LTIM,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,21.85605589762474
+LTIM,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,33.24835486418234
+LTIM,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.5,pat_cagr_10yr,16.495191642458163
+LTIM,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.10345688880007993
+LTIM,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,31.93243243243243
+LTIM,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1752.0
+LTIM,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+M&M,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,85.5,return_on_equity,18.537543435564285
+M&M,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,78.2,return_on_assets,5.227460570376871
+M&M,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,23.253542874034295
+M&M,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,100.95443275430912
+M&M,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.6414413053331318
+M&M,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-11245.0
+MARUTI,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,82.8,return_on_equity,15.750385351954785
+MARUTI,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,88.7,return_on_capital,21.720016325578683
+MARUTI,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,84.7,return_on_assets,11.697772843960314
+MARUTI,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,26.323644326166008
+MARUTI,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,92.3,revenue_cagr_10yr,12.2815532690568
+MARUTI,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,45.387585949345265
+MARUTI,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.8,pat_cagr_10yr,16.801752458674525
+MARUTI,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.001389602503619973
+MARUTI,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,117.90721649484536
+MARUTI,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,4936.0
+MARUTI,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+MOTHERSON,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,87.2,return_on_capital,20.231351867526097
+MOTHERSON,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,93.8,revenue_cagr_3yr,19.82084189180693
+MOTHERSON,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,92.5,revenue_cagr_10yr,12.491793471295164
+MOTHERSON,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,24.392634688314452
+MOTHERSON,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,90.7,pat_cagr_10yr,10.657290360127636
+MOTHERSON,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,5.224737713970182
+MOTHERSON,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,925.0
+MOTHERSON,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+NAUKRI,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,31.002640631164248
+NAUKRI,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,96.2,revenue_cagr_10yr,16.16000419274206
+NAUKRI,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,25.787235225263295
+NAUKRI,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.008129006675038002
+NAUKRI,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,28.97142857142857
+NAUKRI,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,1.9661621835965897
+NAUKRI,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,2.3305362527861546
+NAUKRI,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,1.6487018204993213
+NAUKRI,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,-25.134755898556637
+NAUKRI,2024,CON,CON_07,Negative three-year profit CAGR indicates earnings contraction.,92.0,pat_cagr_3yr,-25.134755898556637
+NAUKRI,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-150.0
+NESTLEIND,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,117.75449101796407
+NESTLEIND,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,117.75449101796407
+NESTLEIND,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,157.74762550881954
+NESTLEIND,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,37.37527321106148
+NESTLEIND,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,92.3,revenue_cagr_3yr,18.282008662499027
+NESTLEIND,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,22.913427743605965
+NESTLEIND,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,92.7,pat_cagr_10yr,12.745848564103014
+NESTLEIND,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.10329341317365269
+NESTLEIND,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,41.186206896551724
+NESTLEIND,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,2938.0
+NESTLEIND,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,88.28
+NESTLEIND,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+NHPC,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,11.243421052631579
+NHPC,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,970.0
+NHPC,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,6.745435920463634
+NHPC,2024,CON,CON_04,Low three-year revenue CAGR indicates subdued recent business growth.,82.0,revenue_cagr_3yr,-0.05530974579651682
+NHPC,2024,CON,CON_05,Negative three-year revenue CAGR indicates contraction in the business.,92.0,revenue_cagr_3yr,-0.05530974579651682
+NHPC,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,3.8155287821050266
+NTPC,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,91.0,revenue_cagr_3yr,16.971938102031615
+NTPC,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,86.5,pat_cagr_3yr,12.532921935042452
+NTPC,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,8644.0
+NTPC,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.475521125007778
+ONGC,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,83.9,return_on_equity,16.940398136885513
+ONGC,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,88.0,return_on_capital,20.975989850097196
+ONGC,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,81.0,return_on_assets,8.044955154739396
+ONGC,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,24.855263957274687
+ONGC,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,93.0,revenue_cagr_10yr,13.006317517391341
+ONGC,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,38.78658467052287
+ONGC,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.45444863084819176
+ONGC,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,11.361290955463998
+ONGC,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,42060.0
+ONGC,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+PFC,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,26.1609340860332
+PFC,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,89.2,return_on_equity,26.1609340860332
+PFC,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,95.6,revenue_cagr_10yr,15.635271776057436
+PFC,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,93.0,pat_cagr_3yr,18.9656031749176
+PFC,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,97.1,pat_cagr_10yr,17.09152322307048
+PFC,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,3.4859018926226346
+PFC,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.54707727671322
+PFC,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,8.521864217426122
+PFC,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,0.5804147544943239
+PFC,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-101229.0
+PFC,2024,CON,CON_12,The interest coverage warning flag indicates potential debt-servicing pressure.,94.0,icr_warning_flag,1.0
+PIDILITIND,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,87.8,return_on_equity,20.780302129178065
+PIDILITIND,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,30.81124132438275
+PIDILITIND,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,87.5,return_on_assets,14.466710831401125
+PIDILITIND,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,93.3,revenue_cagr_3yr,19.2998469335665
+PIDILITIND,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,91.2,revenue_cagr_10yr,11.200766251991956
+PIDILITIND,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,89.8,pat_cagr_3yr,15.76701574818362
+PIDILITIND,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,94.5,pat_cagr_10yr,14.527040733688779
+PIDILITIND,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.045438325205186154
+PIDILITIND,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,54.333333333333336
+PIDILITIND,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,955.0
+PIDILITIND,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+PNB,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,61.320565191187306
+PNB,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,61.320565191187306
+PNB,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,85.7,return_on_assets,12.652858189053626
+PNB,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,84.0,revenue_cagr_3yr,10.003199043012213
+PNB,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,50.336631443573786
+PNB,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,3.684256345007701
+PNB,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-29445.0
+POWERGRID,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,84.9,return_on_equity,17.870011245496066
+POWERGRID,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,85.9,return_on_capital,18.905165620757423
+POWERGRID,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,79.2,return_on_assets,6.208612241806171
+POWERGRID,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,91.4,revenue_cagr_10yr,11.414137221548938
+POWERGRID,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,93.1,pat_cagr_10yr,13.098067118120916
+POWERGRID,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,24176.0
+POWERGRID,2024,CON,CON_04,Low three-year revenue CAGR indicates subdued recent business growth.,82.0,revenue_cagr_3yr,4.965471644662767
+POWERGRID,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.4173456039290386
+RECLTD,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,87.4,return_on_equity,20.39653929343908
+RECLTD,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,84.1,revenue_cagr_3yr,10.147497322590194
+RECLTD,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,90.7,revenue_cagr_10yr,10.68124131180972
+RECLTD,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,93.1,pat_cagr_3yr,19.07507541943736
+RECLTD,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,91.6,pat_cagr_10yr,11.5509567899718
+RECLTD,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,9.29915054435852
+RECLTD,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.5803050396668312
+RECLTD,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,6.4249170872386445
+RECLTD,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,1.6004741552023507
+RECLTD,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-59554.0
+RELIANCE,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,24.46173600944801
+RELIANCE,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,87.7,pat_cagr_3yr,13.714491828409226
+RELIANCE,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,93.4,pat_cagr_10yr,13.360799426840897
+RELIANCE,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,7.728912535686478
+RELIANCE,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,45207.0
+RELIANCE,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,9.958650553699458
+SBILIFE,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,91.2,revenue_cagr_3yr,17.235877577119997
+SBILIFE,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,22.56159335451695
+SBILIFE,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,90.0,pat_cagr_10yr,10.03348279743188
+SBILIFE,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.0
+SBILIFE,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,240.33333333333334
+SBILIFE,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,1.650120740541991
+SBILIFE,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,0.4755221579767963
+SBILIFE,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-2099.0
+SBIN,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,90.5,revenue_cagr_3yr,16.450765315782267
+SBIN,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,42.78783556410384
+SBIN,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.7,pat_cagr_10yr,16.72896493162048
+SBIN,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,18156.0
+SBIN,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,0.3660986540179259
+SBIN,2024,CON,CON_12,The interest coverage warning flag indicates potential debt-servicing pressure.,94.0,icr_warning_flag,1.0
+SHREECEM,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,87.2,return_on_capital,20.206628203408023
+SHREECEM,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,79.2,return_on_assets,6.205908683974934
+SHREECEM,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,88.8,revenue_cagr_3yr,14.809971802418321
+SHREECEM,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,93.6,revenue_cagr_10yr,13.636599315164899
+SHREECEM,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.07998840747717723
+SHREECEM,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,19.825581395348838
+SHREECEM,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1929.0
+SHREECEM,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,8.370767521615225
+SHREECEM,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,-9.486515671324725
+SHREECEM,2024,CON,CON_07,Negative three-year profit CAGR indicates earnings contraction.,92.0,pat_cagr_3yr,-9.486515671324725
+SHRIRAMFIN,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,82.1,return_on_equity,15.116350338120824
+SHRIRAMFIN,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,27.82625310142639
+SHRIRAMFIN,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,95.7,revenue_cagr_10yr,15.684912864219292
+SHRIRAMFIN,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,43.59376752249222
+SHRIRAMFIN,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,18.47516596168881
+SHRIRAMFIN,2024,CON,CON_02,Low ROCE indicates relatively weak efficiency in capital deployment.,80.0,return_on_capital,4.304889074344531
+SHRIRAMFIN,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,2.9802711607711085
+SHRIRAMFIN,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,3.994034363699512
+SHRIRAMFIN,2024,CON,CON_09,Low interest coverage indicates a smaller buffer for servicing interest obligations.,88.0,interest_coverage,0.6766743648960739
+SHRIRAMFIN,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-31359.0
+SHRIRAMFIN,2024,CON,CON_12,The interest coverage warning flag indicates potential debt-servicing pressure.,94.0,icr_warning_flag,1.0
+SIEMENS,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,84.7,return_on_equity,17.698769290877124
+SIEMENS,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,86.9,return_on_capital,19.85162445638271
+SIEMENS,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,83.7,return_on_assets,10.743507648523657
+SIEMENS,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,93.0,revenue_cagr_3yr,18.998700727442852
+SIEMENS,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,35.646062247422265
+SIEMENS,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.3,pat_cagr_10yr,16.250067578355253
+SIEMENS,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.018167610861496385
+SIEMENS,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,67.15
+SIEMENS,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1168.0
+SIEMENS,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+SUNPHARMA,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,82.1,return_on_equity,15.094161810671148
+SUNPHARMA,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,86.4,return_on_capital,19.446975695015013
+SUNPHARMA,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,84.3,return_on_assets,11.2650630655976
+SUNPHARMA,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,87.1,revenue_cagr_3yr,13.126755589483485
+SUNPHARMA,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,91.7,revenue_cagr_10yr,11.67163711556578
+SUNPHARMA,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,61.722961970425125
+SUNPHARMA,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.051423814535002436
+SUNPHARMA,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,58.331932773109244
+SUNPHARMA,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,11372.0
+SUNPHARMA,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+TATACONSUM,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.21654107242947002
+TATACONSUM,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,25.32183908045977
+TATACONSUM,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,26.0
+TATACONSUM,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,7.566793298872766
+TATAMOTORS,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,37.45613415294755
+TATAMOTORS,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,37.45613415294755
+TATAMOTORS,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,30.98033093974399
+TATAMOTORS,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,81.6,return_on_assets,8.607629877598297
+TATAMOTORS,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,20.579364569370973
+TATAMOTORS,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,6.530242339274985
+TATAMOTORS,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,45133.0
+TATAMOTORS,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,75.92
+TATAMOTORS,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.2631244259167667
+TATAPOWER,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,23.398271146138306
+TATAPOWER,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,43.81173474053719
+TATAPOWER,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,79.98083083658562
+TATAPOWER,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,3569.0
+TATAPOWER,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.659321300531586
+TATASTEEL,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,87.6,revenue_cagr_3yr,13.607181258352963
+TATASTEEL,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,6048.0
+TATASTEEL,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,-5.334926929972293
+TATASTEEL,2024,CON,CON_03,Low ROA suggests limited profitability relative to the asset base.,78.0,return_on_assets,-1.823164211026616
+TCS,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,50.944313673485176
+TCS,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,50.944313673485176
+TCS,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,65.26850065983149
+TCS,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,31.689259788825343
+TCS,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,87.6,revenue_cagr_3yr,13.632864555506409
+TCS,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,91.4,revenue_cagr_10yr,11.404391189817975
+TCS,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,86.3,pat_cagr_3yr,12.286310199806593
+TCS,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.0886406082507266
+TCS,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,87.09511568123393
+TCS,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,50429.0
+TCS,2024,PRO,PRO_12,High composite quality score indicates strong overall financial quality.,88.0,composite_quality_score,85.38
+TCS,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+TECHM,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,82.4,return_on_capital,15.428336643155516
+TECHM,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,78.6,return_on_assets,5.555169297086839
+TECHM,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,85.2,revenue_cagr_3yr,11.160091311747644
+TECHM,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,90.7,revenue_cagr_10yr,10.707384026194822
+TECHM,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.09512917619708275
+TECHM,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,13.85969387755102
+TECHM,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,5058.0
+TECHM,2024,CON,CON_01,Low ROE indicates weaker returns generated on shareholder capital.,82.0,return_on_equity,8.987963553189097
+TECHM,2024,CON,CON_06,Low three-year profit CAGR indicates subdued earnings growth.,82.0,pat_cagr_3yr,-18.035375119857278
+TECHM,2024,CON,CON_07,Negative three-year profit CAGR indicates earnings contraction.,92.0,pat_cagr_3yr,-18.035375119857278
+TITAN,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,37.2192057915469
+TITAN,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,37.2192057915469
+TITAN,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,88.2,return_on_capital,21.23510292524377
+TITAN,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,84.1,return_on_assets,11.081877833074461
+TITAN,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,33.14221885428872
+TITAN,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,96.7,revenue_cagr_10yr,16.675157366300255
+TITAN,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,53.11021124836826
+TITAN,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,96.9,pat_cagr_10yr,16.876825851348286
+TITAN,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,9.411954765751211
+TITAN,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,1506.0
+TITAN,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,1.653145959757266
+TORNTPHARM,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,91.2,return_on_equity,24.154025670945156
+TORNTPHARM,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,30.961573818716676
+TORNTPHARM,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,84.4,return_on_assets,11.416752843846949
+TORNTPHARM,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,84.3,revenue_cagr_3yr,10.251830698592634
+TORNTPHARM,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,9.926553672316384
+TORNTPHARM,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,3106.0
+TORNTPHARM,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+TRENT,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,36.30776794493609
+TRENT,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,96.0,return_on_equity,36.30776794493609
+TRENT,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,92.0,return_on_capital,33.86016148428105
+TRENT,2024,PRO,PRO_04,Positive return on assets indicates productive use of the asset base.,88.0,return_on_assets,20.622731080703712
+TRENT,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,68.36335197744833
+TRENT,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,98.0,revenue_cagr_10yr,18.15797703617492
+TRENT,2024,PRO,PRO_09,Low debt-to-equity indicates a relatively conservative capital structure.,82.0,debt_to_equity,0.4309242871189774
+TRENT,2024,PRO,PRO_10,Strong interest coverage provides a comfortable buffer for debt servicing.,84.0,interest_coverage,8.043478260869565
+TRENT,2024,PRO,PRO_11,Positive free cash flow indicates cash generation after capital expenditure.,80.0,free_cash_flow,841.0
+TRENT,2024,CON,CON_FALLBACK,The available financial metrics should be monitored for potential weaknesses.,60.0,financial_metrics,
+TVSMOTOR,2024,PRO,PRO_01,Strong return on equity indicates efficient use of shareholder capital.,92.0,return_on_equity,26.223466981132077
+TVSMOTOR,2024,PRO,PRO_02,ROE above 25% indicates particularly strong profitability on equity.,89.2,return_on_equity,26.223466981132077
+TVSMOTOR,2024,PRO,PRO_03,Strong ROCE indicates efficient deployment of capital.,83.8,return_on_capital,16.773406526379993
+TVSMOTOR,2024,PRO,PRO_05,Double-digit three-year revenue CAGR indicates strong business growth.,94.0,revenue_cagr_3yr,26.31887127852206
+TVSMOTOR,2024,PRO,PRO_06,Double-digit ten-year revenue CAGR demonstrates sustained long-term growth.,96.7,revenue_cagr_10yr,16.660142551691372
+TVSMOTOR,2024,PRO,PRO_07,Strong three-year profit CAGR indicates healthy earnings growth.,94.0,pat_cagr_3yr,43.02900681569186
+TVSMOTOR,2024,PRO,PRO_08,Double-digit ten-year profit CAGR indicates sustained earnings expansion.,98.0,pat_cagr_10yr,25.266064731460137
+TVSMOTOR,2024,CON,CON_08,High debt-to-equity indicates elevated financial leverage.,86.0,debt_to_equity,3.833431603773585
+TVSMOTOR,2024,CON,CON_10,Negative free cash flow indicates cash outflow after capital expenditure.,86.0,free_cash_flow,-2254.0

@@ -62,4 +62,11 @@ def normalize_ticker(value):
     # Remove spaces
     ticker = re.sub(r"\s+", "", ticker)
 
+    # Known ticker corrections
+    ticker_aliases = {
+        "AGTL": "ATGL",
+    }
+
+    ticker = ticker_aliases.get(ticker, ticker)
+
     return ticker

@@ -13,7 +13,7 @@ DB_PATH = "data/nifty100.db"
 def test_free_cash_flow_integration():
     data = calculate_all_free_cash_flow()
 
-    assert len(data) == 1056
+    assert len(data) == 1063
 
     abb_2012 = next(
         row
@@ -28,7 +28,7 @@ def test_free_cash_flow_integration():
 def test_cashflow_kpis_integration():
     data = calculate_all_cashflow_kpis()
 
-    assert len(data) == 1056
+    assert len(data) == 1063
 
     abb_2012 = next(
         row
@@ -60,7 +60,7 @@ def test_cashflow_kpis_integration():
 def test_cfo_quality_company_integration():
     data = calculate_cfo_quality_by_company()
 
-    assert len(data) == 91
+    assert len(data) == 92
 
     abb = next(
         row
@@ -105,6 +105,6 @@ def test_cashflow_company_coverage():
 
     conn.close()
 
-    assert cashflow_companies == 91
-    assert matched_companies == 91
+    assert cashflow_companies == 92
+    assert matched_companies == 92
     assert cashflow_companies == matched_companies
