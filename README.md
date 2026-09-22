@@ -49,6 +49,7 @@ The main objectives of the project are:
 * **PyYAML**
 * **Excel**
 * **Git & GitHub**
+* **ReportLab**
 
 ---
 
@@ -56,11 +57,20 @@ The main objectives of the project are:
 
 ```text
 nifty100_project/
+
 │
 ├── data/
 │   └── nifty100.db
 │
+├── config/
+│   └── screener_config.yaml
+│
 ├── output/
+│   ├── load_audit.csv
+│   ├── validation_failures.csv
+│   ├── capital_allocation.csv
+│   ├── screener_output.xlsx
+│   ├── peer_comparison.xlsx
 │   ├── valuation_summary.xlsx
 │   ├── valuation_flags.csv
 │   ├── cluster_labels.csv
@@ -82,12 +92,18 @@ nifty100_project/
 │   ├── screener/
 │   ├── peer_group/
 │   ├── portfolio/
+│   ├── radar_charts/
 │   ├── elbow_plot.png
 │   └── correlation_heatmap.png
+│
+├── docs/
+│   ├── analyst_guide.pdf
+│   └── acceptance_checklist.pdf
 │
 ├── src/
 │   ├── analytics/
 │   ├── api/
+│   ├── dashboard/
 │   ├── etl/
 │   ├── nlp/
 │   └── reports/
@@ -154,9 +170,7 @@ Sprint 1 established the data foundation used by all later sprints.
 
 Sprint 2 focused on converting raw financial statements into useful financial metrics and analytical indicators.
 
-## Work Completed
-
-### Profit & Loss Analysis
+## Profit & Loss Analysis
 
 Financial statement data was structured and analyzed to support:
 
@@ -166,7 +180,7 @@ Financial statement data was structured and analyzed to support:
 * Growth calculations
 * Margin analysis
 
-### Balance Sheet Analysis
+## Balance Sheet Analysis
 
 The platform processes balance-sheet information for:
 
@@ -176,7 +190,7 @@ The platform processes balance-sheet information for:
 * Debt
 * Capital structure
 
-### Financial Ratios
+## Financial Ratios
 
 Financial ratios were calculated and validated for the Nifty 100 companies.
 
@@ -190,7 +204,7 @@ The analysis included metrics such as:
 * Valuation ratios
 * Quality indicators
 
-### Ratio Validation
+## Ratio Validation
 
 The ratio engine was tested across historical company data.
 
@@ -206,9 +220,7 @@ Sprint 3 focused on enabling users to screen companies based on financial charac
 
 ## Company Screener
 
-The screener supports multiple predefined investment-style presets.
-
-The implemented presets include:
+The screener supports multiple predefined investment-style presets:
 
 1. Quality Compounder
 2. Value Pick
@@ -269,20 +281,18 @@ An interactive Streamlit dashboard was developed using:
 
 The dashboard provides access to company and market-level financial analysis.
 
-### Dashboard Areas
+## Dashboard Screens
 
-The dashboard includes functionality for:
+The dashboard contains **8 screens**:
 
-* Home / overview
-* Company analysis
-* Financial health
-* Screener
-* Peer analysis
-* Sector analysis
-* Valuation
-* Trends
-* Company pros and cons
-* Financial information
+1. Home
+2. Profile
+3. Screener
+4. Peers
+5. Trends
+6. Sectors
+7. Capital
+8. Reports
 
 ## Company Screening
 
@@ -317,8 +327,6 @@ The valuation analysis generated:
 * Discount
 * Caution
 
-The resulting valuation distribution was:
-
 | Flag      | Companies |
 | --------- | --------: |
 | Fair      |        48 |
@@ -349,13 +357,10 @@ An NLP parser was developed to extract financial insights from structured analys
 
 ### Parser Validation
 
-The parser was improved from:
+The final parser result was:
 
-* 75 successfully parsed records / 5 failures
-
-to:
-
-* **80 successfully parsed records / 0 failures**
+* **80 successfully parsed records**
+* **0 failures**
 
 The parsed output is stored in:
 
@@ -388,7 +393,7 @@ Results:
 * **816 insights generated**
 * 613 PRO insights
 * 203 CON insights
-* Mean confidence: **86.24**
+* Mean confidence: **86.24%**
 * Confidence range: **60–98**
 * Every company received at least one PRO and one CON insight.
 
@@ -425,7 +430,7 @@ The implemented classifications included:
 * Growth Funded by Debt
 * Liquidating Assets
 
-The generated cash-flow intelligence output contained company-level classifications and financial indicators.
+The generated cash-flow intelligence output contains company-level classifications and financial indicators.
 
 ## Distress Logic
 
@@ -469,7 +474,7 @@ The project also generated Excel and CSV outputs for downstream analysis.
 
 ## Objective
 
-Sprint 6 focused on advanced company clustering, REST API development, automated testing, and final project validation.
+Sprint 6 focused on advanced company clustering, REST API development, automated testing, documentation, and final project validation.
 
 ---
 
@@ -549,9 +554,7 @@ reports/correlation_heatmap.png
 
 Sector-level Z-score analysis was performed to identify unusual observations.
 
-The analysis identified:
-
-* **9 sector-level Z-score outliers**
+The analysis identified **9 sector-level Z-score outliers**.
 
 These observations were included in the outlier report for further analysis.
 
@@ -568,7 +571,7 @@ A REST API was developed using:
 API source:
 
 ```text
-src/api/
+src/api/main.py
 ```
 
 ## API Features
@@ -593,7 +596,7 @@ The API provides access to:
 
 # API Endpoints
 
-The implemented business endpoints include:
+The implemented API endpoints include:
 
 ```text
 GET /api/v1/companies
@@ -603,30 +606,21 @@ GET /api/v1/companies/{ticker}/bs
 GET /api/v1/companies/{ticker}/cashflow
 GET /api/v1/companies/{ticker}/ratios
 GET /api/v1/companies/{ticker}/tearsheet
-
 GET /api/v1/screener
-
 GET /api/v1/sectors
 GET /api/v1/sectors/{sector}/companies
-
 GET /api/v1/peers/{ticker}
 GET /api/v1/peers/{ticker}/compare
-
 GET /api/v1/valuation
 GET /api/v1/market-cap
-
 GET /api/v1/portfolio/stats
-
 GET /api/v1/documents
 GET /api/v1/documents/{ticker}
-```
-
-Health endpoints:
-
-```text
 GET /api/v1/health
 GET /
 ```
+
+This represents **19 listed endpoints**, including the health and root endpoints.
 
 ---
 
@@ -650,7 +644,7 @@ output/openapi.json
 
 # API Validation
 
-All implemented business endpoints were manually tested.
+The API was validated across the implemented endpoints.
 
 Validation included:
 
@@ -707,7 +701,7 @@ The API test suite and KPI-related tests were included in the final validation.
 
 # Sprint 6 Acceptance Validation
 
-The Sprint 6 acceptance checklist contained **20 acceptance gates**.
+The Sprint 6 acceptance checklist covered **20 acceptance gates**.
 
 Final result:
 
@@ -772,6 +766,23 @@ output/openapi.json
 output/Nifty100_API_Postman_Collection.json
 ```
 
+## Validation Outputs
+
+```text
+output/validation_failures.csv
+```
+
+The final validation file contains the required fields:
+
+```text
+company_id
+field
+issue
+severity
+```
+
+The final validation result contains **0 validation failures**.
+
 ## Reports
 
 ```text
@@ -780,7 +791,17 @@ reports/sector/
 reports/screener/
 reports/peer_group/
 reports/portfolio/
+reports/radar_charts/
 ```
+
+## Documentation
+
+```text
+docs/analyst_guide.pdf
+docs/acceptance_checklist.pdf
+```
+
+The final Analyst Guide contains **12 pages**.
 
 ---
 
@@ -810,15 +831,17 @@ From the project directory:
 
 ## 2. Run the Streamlit Dashboard
 
-Use the appropriate Streamlit application entry point from the project.
-
-Example:
+Launch the dashboard using the project dashboard entry point:
 
 ```powershell
-streamlit run <dashboard_file>.py
+streamlit run src/dashboard/app.py
 ```
 
-The dashboard will open in the browser.
+The dashboard will be available at:
+
+```text
+http://localhost:8501
+```
 
 ---
 
@@ -868,7 +891,69 @@ Expected final project validation:
 
 ```text
 147 passed
+1 warning
+0 failed
 ```
+
+---
+
+# Quick Reference — Key Commands
+
+```text
+make load
+```
+
+Load all Excel files into `nifty100.db`.
+
+```text
+make ratios
+```
+
+Generate and populate the `financial_ratios` table.
+
+```text
+make test
+```
+
+Run the automated pytest test suite and generate the HTML test report.
+
+```text
+make report
+```
+
+Generate company tearsheets, sector reports, and portfolio reports.
+
+```text
+make dashboard
+```
+
+Launch the Streamlit dashboard on port 8501.
+
+```text
+make api
+```
+
+Launch the FastAPI server on port 8000.
+
+```text
+make clean
+```
+
+Remove cache (`.pyc`) and test artifacts. The database remains untouched.
+
+---
+
+# Important Data Rules
+
+* Use `pd.read_excel(path, header=1)` for all core Excel files.
+* Always normalize `company_id` by trimming spaces and converting to uppercase before joins.
+* All monetary values are stored in **INR Crore**.
+* Skip the Financials sector while applying the D/E screener filter.
+* If CAGR has a negative base year, return `TURNAROUND` instead of calculating CAGR.
+* If Interest Expense = 0, display `Debt Free` instead of dividing by zero.
+* Clearly label simulated datasets such as `stock_prices` and `market_cap` as **SIMULATED** in dashboards and reports.
+* Run the test suite before every Git commit.
+* **Zero test failures are mandatory.**
 
 ---
 
@@ -882,15 +967,48 @@ Repository:
 janvi9960/nifty100_project
 ```
 
-The completed Sprint 5 and Sprint 6 implementation was committed and pushed successfully.
+The completed Sprint 6 implementation was committed and pushed successfully.
 
 Final Sprint 6 commit:
 
 ```text
-a671481
+e1d89e2
+Complete Sprint 6 final deliverables
 ```
 
 The local `main` branch is synchronized with the remote `origin/main`.
+
+---
+
+# Project Deliverables
+
+All **23 project deliverables** have been completed.
+
+| ID   | Sprint   | Deliverable                     | Status |
+| ---- | -------- | ------------------------------- | ------ |
+| D-01 | Sprint 1 | nifty100.db                     | ✅ Done |
+| D-02 | Sprint 1 | load_audit.csv                  | ✅ Done |
+| D-03 | Sprint 1 | validation_failures.csv         | ✅ Done |
+| D-04 | Sprint 1 | exploratory_queries.sql         | ✅ Done |
+| D-05 | Sprint 2 | financial_ratios table          | ✅ Done |
+| D-06 | Sprint 2 | capital_allocation.csv          | ✅ Done |
+| D-07 | Sprint 3 | screener_output.xlsx            | ✅ Done |
+| D-08 | Sprint 3 | screener_config.yaml            | ✅ Done |
+| D-09 | Sprint 3 | peer_comparison.xlsx            | ✅ Done |
+| D-10 | Sprint 3 | 92 Radar Charts                 | ✅ Done |
+| D-11 | Sprint 4 | Streamlit Dashboard — 8 Screens | ✅ Done |
+| D-12 | Sprint 4 | valuation_summary.xlsx          | ✅ Done |
+| D-13 | Sprint 5 | cashflow_intelligence.xlsx      | ✅ Done |
+| D-14 | Sprint 5 | pros_cons_generated.csv         | ✅ Done |
+| D-15 | Sprint 5 | analysis_parsed.csv             | ✅ Done |
+| D-16 | Sprint 5 | 92 Company Tearsheets           | ✅ Done |
+| D-17 | Sprint 5 | 11 Sector Reports               | ✅ Done |
+| D-18 | Sprint 5 | Portfolio Summary PDF           | ✅ Done |
+| D-19 | Sprint 6 | cluster_labels.csv              | ✅ Done |
+| D-20 | Sprint 6 | FastAPI Server                  | ✅ Done |
+| D-21 | Sprint 6 | pytest_report.html              | ✅ Done |
+| D-22 | Sprint 6 | analyst_guide.pdf               | ✅ Done |
+| D-23 | Sprint 6 | acceptance_checklist.pdf        | ✅ Done |
 
 ---
 
@@ -909,7 +1027,7 @@ The local `main` branch is synchronized with the remote `origin/main`.
 
 # Final Project Status
 
-The Nifty 100 Financial Intelligence Platform has progressed from raw financial data ingestion to a complete analytical platform.
+The **Nifty 100 Financial Intelligence Platform** has progressed from raw financial data ingestion to a complete analytical platform.
 
 The completed system provides:
 
@@ -936,15 +1054,29 @@ The completed system provides:
 * Automated PDF reports
 * Excel and CSV outputs
 * Automated testing
+* Final QA documentation
 
-**Final Sprint 6 QA result: 147 tests passed, 0 failures.**
+## Final Validation
 
-**Sprint 6 acceptance result: 20/20 gates verified.**
+```text
+Deliverables:             23 / 23 completed
+Sprint 6 tests:           147 passed
+Test failures:            0
+Sprint 6 acceptance:      20 / 20 gates verified
+Validation failures:      0
+Analyst Guide:            12 pages
+Git status:               Clean
+GitHub synchronization:   Up to date
+```
 
 ---
 
-## Project Status
+# Final Project Status
 
 **Sprints 1–6: Completed ✅**
 
+**23/23 Deliverables: Completed ✅**
+
 **Nifty 100 Financial Intelligence Platform: Successfully implemented and validated.**
+
+**Overall Project Status: COMPLETED — 100% ✅**
